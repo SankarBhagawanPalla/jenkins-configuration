@@ -1,2 +1,2 @@
 jenkins: 
-  systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code plugin. Trying to test JCasC by Shankar Palla."
+  systemMessage: "Jenkins configured automatically through GitHub url by JCasC plugin by Shankar Palla."
