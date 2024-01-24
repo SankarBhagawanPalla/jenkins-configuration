@@ -1,2 +1,2 @@
-jenkins:
+jenkins: 
   systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code plugin. Trying to test JCasC by Shankar Palla."
