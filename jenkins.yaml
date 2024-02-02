@@ -2,11 +2,8 @@ jenkins:
   systemMessage: "Simple seed job example"
 jobs:
   - script: |
-      multibranchPipelineJob('configuration-as-code') {
-          branchSources {
-              git {
-                  id = 'configuration-as-code'
-                  remote('https://github.com/jenkinsci/configuration-as-code-plugin.git')
-              }
+      job('example-jcasc') {
+          steps {
+              shell('echo Hello World from JCasC!')
           }
       }
